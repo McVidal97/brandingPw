@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML -PROJECT</title>
+    <style>
+        body{
+            background: fixed;
+            background-color: whitesmoke;
+            background-position: right top;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        div{
+            /*border: solid;
+            /*width: 300px;*/
+            padding: 25px;
+            background-color: rgb(169, 193, 201);
+            border-radius: 20%;
+            position: relative;
+            max-width: 500px;
+            height: 80%;
+            outline-style: groove;
+            outline-color: #85c0c0;
+        }
+        div.container{
+            margin-bottom: 100px; 
+            margin-top: 50px;
+        }
+        .container{
+            position: center;
+            float: center;
+            margin: auto;
+            border: 3px ridge #73AD21;
+        }
+        input[type=text], input[type=email]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        input[type=Submit]{
+            font-size: 15px;
+            background-color: #85c0c0;
+            border: none;
+            border-radius: 30%;
+            color: rgb(20, 18, 18);
+            padding: 16px 32px;
+            margin: 4px 2px; 
+            cursor: pointer;
+        }
+        h2{
+            text-align: center;
+            color: gray;
+            background-color: #85c0c0;
+            margin: 20px 10px 20px 10px;
+            border-radius: 80%;
+            font-variant: small-caps;
+        }
+        #btn{
+            margin: 0px 0px 10px 75%;
+            outline-style: dotted;
+            outline-color: #85c0c0;
+        }
+    
+        ul {
+            list-style-type: none;
+            margin: 0px 20px 0px 20px;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
+        }
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <nav >
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form action="" method="post" id="position">  
+            <h2>Personal Information</h2>
+            <br>
+            First Name<br>
+            <input type="text" name="firstname" value=""> <br>
+            Last Name<br>
+            <input type="text" name="lastname" value=""> <br>
+            Email<br>
+            <input type="text" value="username@gmail.com" name="email"> <br>
+            Password <br>
+            <input type="text" name="password"> <br>
+            Confirm Password <br>
+            <input type="email" name="confirm_password"> <br>
+            Gender<br>
+            <input type="radio" name="gender" value="Male" checked>
+            Male <br>
+            <input type="radio" name="gender" value="Female">
+            Female <br>
+            <input type="radio" name="gender" value="other">
+            other <br>
+            <input type="Submit" value="Submit" id="btn">
+            <br>
+        </form>
+    </div>
+
+
+</body>
+</html>
